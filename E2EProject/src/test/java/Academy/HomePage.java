@@ -25,7 +25,7 @@ public class HomePage extends Base {
 		driver.get(url);
 		LandingPage lp = new LandingPage(driver);
 
-		System.out.println("inside no thanks*****");
+		System.out.println("inside no thanks*****====");
 		if(lp.getNoThanksSize()>0)
 		{
 		lp.getNoThanks().click();
